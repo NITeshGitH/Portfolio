@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+</head>
+
+<body>
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Portfolio</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Mode -->
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+            </div>
+
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+        <!-- Main section -->
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="hello">
+                        <p>Hello I,m</p>
+                    </div>
+                    <div class="featured-name">
+                        <span class="typedText"></span>
+                    </div>
+                    <div class="text-info">
+                        <p>My name is Nitesh! I,m a web developer and my expertise is to create website design, Frontend
+                            design, and many more...</p>
+                    </div>
+                    <div class="text-btn">
+                        <a href="https://www.linkedin.com/in/vnitesh/" target="_blank"><button class="btn hire-btn">Hire
+                                Me</button></a>
+                        <a href="https://drive.google.com/file/d/1ugXAgbCoZ1_hlsM8zTkU-YSDEC1aWVXK/view?usp=drive_link"
+                            target="_blank"><button class="btn">Download Resume <i
+                                    class="uil uil-file"></i></button></a>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon_circle"></div>
+                        <div class="icon"><a href="https://www.instagram.com/h.nitsu?igsh=dzg3eXd5dGE1M3Y="
+                                target="_blank"><i class="uil uil-instagram"></i></a></div>
+                        <div class="icon"><a href="https://www.linkedin.com/in/vnitesh/" target="_blank"><i
+                                    class="uil uil-linkedin-alt"></i></a></div>
+                        <div class="icon"><a
+                                href="https://api.whatsapp.com/send?phone=8868999932&text=Hello!%20I%27m%20contacting%20you%20from%20the%20website."
+                                target="_blank"><i class="uil uil-whatsapp"></i></a></div>
+                        <div class="icon"><a href="https://github.com/NITeshGitH" target="_blank"><i
+                                    class="uil uil-github-alt"></i></a></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="myImage.png" alt="myImage">
+                    </div>
+                </div>
+            </section>
+            <!-- Skill section -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <figure class="about-me">
+                                <figcaption>
+                                    <img src="myImage2.png" alt="myImage" class="profile" />
+                                    <h2>Web developer</h2>
+                                    <p>Hey there! I'm Nitesh, a passionate web developer with expertise in HTML5, CSS3,
+                                        and JavaScript. I create dynamic and responsive websites with a focus in
+                                        user-friendly interfaces and optimal performance.</p>
+                            </figure>
+                            <a href="https://www.linkedin.com/in/vnitesh/" target="_blank"><button
+                                    class="about-me-btn">Hire Me</button></a>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-box">
+                            <span class="title">HTML</span>
+                            <div class="skill-bar html">
+                                <span class="skill-per">
+                                    <span class="tooltip">80%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">CSS</span>
+                            <div class="skill-bar css">
+                                <span class="skill-per">
+                                    <span class="tooltip">80%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">Java</span>
+                            <div class="skill-bar">
+                                <span class="skill-per java">
+                                    <span class="tooltip">70%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">JavaScript</span>
+                            <div class="skill-bar">
+                                <span class="skill-per javascript">
+                                    <span class="tooltip">40%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">Python</span>
+                            <div class="skill-bar">
+                                <span class="skill-per python">
+                                    <span class="tooltip">40%</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Project box -->
+            <section class="section" id="projects">
+                <div id="portfolio">
+                    <div class="main-text">
+                        <h2>Projects</h2>
+                        <div class="portfolio-content">
+                            <div class="row-one">
+                                <img src="weatherApp.png">
+                                <div class="layer">
+                                    <h5>Weather App</h5>
+                                    <p>The WeatherApp is a dynamic and user-friendly application that provides real-time
+                                        weather updates for any location. This project showcases my ability to integrate
+                                        APIs, handle asynchronous JavaScript operations, and create responsive and
+                                        visually appealing web applications.</p>
+                                    <a href="https://niteshgith.github.io/WeatherApp/" target="_blank"><i class="bx bx-link-external" style="color: #8749f2;"></i></a>
+                                </div>
+                            </div>
+                            <div class="row-one">
+                                <img src="hangmanGame.png">
+                                <div class="layer">
+                                    <h5>Hangman Game</h5>
+                                    <p>The Hangman Game is a web-based implementation of the classic word-guessing game.
+                                        Players attempt to guess a hidden word by entering letters one at a time, with a
+                                        limited number of incorrect guesses before the game ends. The project utilizes
+                                        HTML, CSS, and JavaScript to provide a dynamic and interactive gaming
+                                        experience.</p>
+                                    <a href="https://niteshgith.github.io/Hangman-game/" target="_blank"><i class="bx bx-link-external" style="color: #8749f2;"></i></a>
+                                </div>
+                            </div>
+                            <div class="row-one">
+                                <img src="historicalPlaces.png">
+                                <div class="layer">
+                                    <h5>Historical Places Of India</h5>
+                                    <p>This project showcases the rich cultural heritage of India by exploring its
+                                        historical sites, each narrating unique stories of the country's past. Discover
+                                        architectural marvels, ancient cities, and monuments that highlight India's
+                                        diverse history and vibrant traditions.</p>
+                                    <a href="https://niteshgith.github.io/HistoricalPlacesOfIndia/" target="_blank"><i class="bx bx-link-external" style="color: #8749f2;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Contact box -->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Let's Work Together</h1>
+                    <span>Do you have a project in your mind, contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i>Email: nvermacodes@gmail.com</p>
+                            <p><i class="uil uil-phone"></i>Phone: 8868999932</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" placeholder="Your Name">
+                                <input type="text" class="input-field" placeholder="Your Email">
+                            </div>
+                            <div class="text-area">
+                                <input type="text" class="input-subject" placeholder="Subject">
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn">Send<i class="uil uil-message"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon"><a href="https://www.instagram.com/h.nitsu?igsh=dzg3eXd5dGE1M3Y=" target="_blank"><i
+                            class="uil uil-instagram"></i></a></div>
+                <div class="icon"><a href="https://www.linkedin.com/in/vnitesh/" target="_blank"><i
+                            class="fa-brands fa-linkedin-in icon"></i></a></div>
+                <div class="icon"><a
+                        href="https://api.whatsapp.com/send?phone=8868999932&text=Hello!%20I%27m%20contacting%20you%20from%20the%20website."
+                        target="_blank"><i class="uil uil-whatsapp"></i></a></div>
+                <div class="icon"><a href="https://github.com/NITeshGitH" target="_blank"><i
+                            class="uil uil-github-alt"></i></a></div>
+            </div>
+            <div class="bottom-footer">
+                <p>Developed with love by Nitesh Verma &copy; 2024</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
