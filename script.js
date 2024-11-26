@@ -59,7 +59,7 @@ const srRight = ScrollReveal({
 })
 
 srRight.reveal(".skill", { delay: 100});
-srRight.reveal(".skill-box", { dealy: 100});
+srRight.reveal(".skill-box", { delay: 100});
 
 const sections = document.querySelectorAll(".section[id]");
 
